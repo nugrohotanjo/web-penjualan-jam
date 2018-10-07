@@ -1,0 +1,1109 @@
+
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+
+#keranjang-belanja{
+	border:1px solid transparent;
+	background-color:white;
+	width:165px;
+	height:80px;
+	bottom: 5; 
+	left:3;
+	position: fixed;
+	border-radius:10px;
+}
+
+	.keranjang-belanja-detail{
+		border:1px solid transparent;
+		width:98px;
+		height:70px;
+		float:left;
+		text-align:center;
+		margin-top:4px;
+	}
+	
+	.tombol-keranjang{
+		text-align:center; 
+		font-size:15px; 
+		border:1px solid transparent; 
+		margin-left:2px; 
+		padding:5px;
+		margin-top:5px; 
+		border-radius:7px; 
+		color:white; 
+		background-color:#9bc535;
+		text-decoration:none;
+		
+	}
+	
+	.tombol-keranjang a{
+		text-decoration:none;
+	}
+	
+	.tombol-keranjang b{
+		color:white;
+		text-align:center;
+	}
+	
+	.tombol-keranjang:hover{
+		background-color:#ccc;
+	}
+	
+	.keranjang-belanja-gambar{
+		border:1px solid transparent;
+		width:60px;
+		height:70px;
+		float:right;
+		margin-top:4px;
+	}
+	
+.menu_atas{
+	border:1px solid #000000;
+	width:100%;
+	height:30px;
+	background-color:black;
+	
+}
+
+.menu_atas_tengah{
+	border:1px solid black;
+	width:1000px;
+	height:20px;
+	margin:20px auto;
+	margin-top:0px;
+	color:white;
+	background-color:black;
+}
+
+	.menu_atas_tengah li{
+		display:inline;
+	
+	}
+
+	.menu_atas_tengah li a{
+		display:inline;
+		text-decoration:none;
+		color:white;
+		float:right;
+	
+	}
+	
+	}
+	
+#header{
+	border:1px solid transparent;
+	width:1000px;
+	height:150px;
+	margin:20px auto;
+	margin-top:10px;
+}
+
+#menu{
+	border:1px solid transparent;
+	width:1000px;
+	height:35px;
+	margin:20px auto;
+	margin-top:-15px;
+	
+}
+
+.menu{
+	border:0px solid red;
+	height:30px;
+	margin-top:8px;
+}
+
+.menu li{
+		text-decoration:none;
+		font:bold;
+		display:inline;
+		border:0px solid red;
+		padding:10px;
+		font-size:16px;
+		background-color:white;
+		border-radius: 7px 7px 0px 0px;
+		-moz-border-radius: 7px 7px 0px 0px;
+		-webkit-border-radius: 7px 7px 0px 0px;
+		border: 0px solid #000000;
+	}
+	
+	.menu li a{
+		text-decoration:none;
+	}
+
+
+#menu_2{
+	border:1px solid transparent;
+	width:1000px;
+	height:25px;
+	margin:20px auto;
+	margin-top:-20px;
+	background-color:#3f5d00;
+	color:white;
+}
+
+	.menu_2{
+		border:0px solid red;
+		height:25px;
+		margin-top:4px;
+		color:white;
+}
+
+	
+	.menu_2 li{
+		background-color:#3f5d23;
+		color:white;
+		display:inline;
+		border:0px solid red;
+		border-right:1px solid white;
+		padding:5px;
+		padding-left:20px;
+		padding-right:20px;
+		font-size:16px;
+		margin-right:-3px;
+	}
+	
+	.menu_2 li a{
+		color:white;
+		text-decoration:none;
+		
+	}
+	
+
+#best_seller{
+	border:1px solid transparent;
+	width:1000px;
+	height:300px;
+	margin:20px auto;
+	margin-top:-17px;
+	background-color:white;
+}
+
+	.best_seller_item{
+		border:1px solid #ccc;
+		width:190px;
+		height:280px;
+		margin:10px ;
+		margin-right:-5px;
+		float:left;
+		background-color:white;
+	}
+	
+		.best_seller_item:hover{
+			-moz-box-shadow: 0px 0px 5px #1e1e1e; 
+			-webkit-box-shadow: 0px 0px 5px #1e1e1e; 
+			box-shadow: 0px 0px 5px #1e1e1e;
+			-webkit-transition: box-shadow 0.3s ease-in-out 0s;
+			-moz-transition: box-shadow 0.3s ease-in-out 0s;
+			-o-transition: box-shadow 0.3s ease-in-out 0s;
+			-ms-transition: box-shadow 0.3s ease-in-out 0s;
+			transition: box-shadow 0.3s ease-in-out 0s; 
+		}
+			
+		.gambar-best{
+			border:1px solid transparent;
+			width:149px;
+			margin:0px auto;
+			margin-top:5px;
+			max-width: 100%;
+  
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  overflow: hidden;
+		}
+	
+		.nama-prodak{
+			margin:0px auto;
+			width:180px;
+			border:1px solid transparent;
+			height:  32px ;
+			text-align:center;
+			margin-top:10px;
+			font-size:15px;
+			text-decoration:none;
+		}
+		.nama-prodak a, a:visited{
+			color:black;
+			text-decoration:none;
+		}
+		
+		.harga{
+			color:red;
+			font-size:15px;
+			border:1px solid transparent;
+			margin:0px auto;
+			margin-top:5px;
+			text-align:center;
+			
+		}
+	
+		.detail-beli{
+			border:1px solid transparent;
+			width:150px;
+			margin:0px auto;
+			margin-top:4px;
+			
+		}
+			
+			.detail{
+				border:1px solid transparent;
+				background-color:black;
+				padding:1px;
+				color:white;
+				width:80px;
+				float:left;
+				text-align:center;
+				font-family:arial;
+			}
+			
+				.detail a{
+					color:white;
+					text-decoration:none;
+				}
+			
+				.detail:hover{
+					background-color:#ccc;
+				}
+			
+			.beli{
+				border:1px solid transparent;
+				background-color:#78b045;
+				padding:1px;
+				color:white;
+				width:60px;
+				float:right;
+				text-align:center;
+				font-family:arial;
+			}
+	
+				.beli a{
+					color:white;
+					text-decoration:none;
+				}
+			
+				.beli:hover{
+					background-color:#ccc;
+				}
+	
+	
+.menu_prodak_baru{
+	border:1px solid transparent;
+	width:1000px;
+	height:40px;
+	margin:20px auto;
+	margin-top:-15px;
+	padding-top:5px;
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(46%, rgba(245,245,245,1)), color-stop(100%, rgba(237,234,234,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#edeaea', GradientType=0 );
+}
+
+#prodak_baru{
+	border:1px solid transparent;
+	width:1000px;
+	height:650px;
+	margin:20px auto;
+	margin-top:-15px;
+	background-color:white;
+}
+
+	.prodak_baru_item{
+		border:1px solid #ccc;
+		width:190px;
+		height:280px;
+		margin:10px ;
+		margin-right:-5px;
+		float:left;
+	}
+	
+		.prodak_baru_item:hover{
+			-moz-box-shadow: 0px 0px 5px #1e1e1e; 
+			-webkit-box-shadow: 0px 0px 5px #1e1e1e; 
+			box-shadow: 0px 0px 5px #1e1e1e;
+			-webkit-transition: box-shadow 0.3s ease-in-out 0s;
+			-moz-transition: box-shadow 0.3s ease-in-out 0s;
+			-o-transition: box-shadow 0.3s ease-in-out 0s;
+			-ms-transition: box-shadow 0.3s ease-in-out 0s;
+			transition: box-shadow 0.3s ease-in-out 0s; 
+		}
+	
+.info_terbaru{
+	border:1px solid transparent;
+	width:1000px;
+	height:35px;
+	margin:20px auto;
+	margin-top:-15px;
+	padding-top:5px;
+	background-color:white;
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(46%, rgba(245,245,245,1)), color-stop(100%, rgba(237,234,234,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#edeaea', GradientType=0 );
+}
+
+	.box-info{
+		border:1px solid transparent;
+		width:1000px;
+		height:350px;
+		margin:20px auto;
+		margin-top:-15px;
+		background-color:white;
+	}
+	
+		.artikel{
+			border:0px solid transparent;
+			width:460px;
+			height:120px;
+			margin:10px;
+			margin-top:10px;
+			float:left;
+		}
+		
+		.judul{
+			border:0px solid blue;
+			width:460px;
+			height:20px;
+		}
+	
+		.artikel-isi{
+			border:0px solid green;
+			width:460px;
+			height:125px;
+		}
+		
+			.gambar{
+				border:0px solid black;
+				width:100px;
+				height:125px;
+				float:left;
+			}
+			
+			.tanggal{
+				border:0px solid transaparent;
+				width:345px;
+				height:20px;
+				float:right
+			}
+			
+			.isi{
+				border:0px solid blue;
+				width:345px;
+				height:105px;
+				float:right;
+				text-align:justify;
+			}
+			
+#footer{
+	
+	border:1px solid black;
+	width:100%;
+	height:400px;;
+	margin:20px auto;
+	margin-top:-15px;
+	background-color:black;
+}
+	
+	.box-footer{
+		border:1px solid transprent;
+		width:1000px;
+		
+		height:350px;
+		margin:0px auto;
+		
+	}
+	
+		.footer1{
+			border:1px solid transparent;
+			width:150px;
+			height:300px;
+			margin:11px;
+			margin-left:20px;
+			float:left;
+			color:white;
+			
+			
+		}
+		
+		.footer2{
+			border:1px solid transparent;
+			width:220px;
+			height:300px;
+			margin:11px;
+			margin-left:10px;
+			float:left;
+			color:white;
+		}
+		
+		.footer3{
+			border:1px solid transparent;
+			width:500px;
+			height:300px;
+			margin:11px;
+			margin-left:15px;
+			float:right;
+			color:white;
+		}
+		
+		.footer5{
+			border:1px solid transparent;
+			width:300px;
+			height:20px;
+			margin:0px auto;
+			color:white;
+			text-align:center;
+		}
+		
+/*css detai produk*/		
+
+#detail-produk{
+	border:1px solid transparent;
+	width:1000px;
+	height:1350px;
+	margin:20px auto;
+	margin-top:-17px;
+	
+}
+	
+	.menu-kiri{
+		border:1px solid transparent;
+		width:200px;
+		height:400px;
+		float:left;
+		margin-left:-2px;
+		background-color:transparent;
+	}
+	
+		.menu-kiri-1{
+			border:1px solid transparent;
+			width:190px;
+			height:auto;
+			
+			background-color:white;
+		}
+		
+		.menu-kiri-customer{
+			border:1px solid transparent;
+			width:180px;
+			height:auto;
+			margin:2px auto;
+			font-size:13pt;
+			padding-top:5px;
+			padding-left:5px;
+			background: rgba(255,255,255,1);
+			background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(46%, rgba(245,245,245,1)), color-stop(100%, rgba(237,234,234,1)));
+			background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#edeaea', GradientType=0 );
+		}
+		
+			.menu-kiri-1 ul ,li{
+				list-style:none;		
+			}
+			
+			.menu-kiri-1 li {
+				text-align:center;
+				height:auto;
+			}
+		
+		.menu-kiri-2{
+			border:1px solid transparent;
+			width:190px;
+			height:135px;
+			background-color:white;
+			margin-top:0px;
+		}
+			
+		.menu-kiri-cari{
+			border:1px solid transparent;
+			width:180px;
+			height:auto;
+			margin:2px auto;
+			font-size:13pt;
+			padding-top:5px;
+			padding-left:5px;
+			background: rgba(255,255,255,1);
+			background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(46%, rgba(245,245,245,1)), color-stop(100%, rgba(237,234,234,1)));
+			background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#edeaea', GradientType=0 );
+		}
+		
+			.menu-kiri-cari-1{
+				border:1px solid transparent;
+				width:180px;
+				height:auto;
+				margin:0px auto;
+				background-color:green;
+				
+			}
+			
+			.menu-kiri-cari-1  li {
+				text-align:center;
+				padding-bottom:5px;
+				padding-top:5px;
+			}
+		
+			.input-cari{
+				width:160px;
+				
+			}
+			
+			.tombol-cari {
+				display: inline-block;
+				outline: none;
+				cursor: pointer;
+				text-align: center;
+				text-decoration: none;
+				font: 14px/100% Arial, Helvetica, sans-serif;
+				padding-top:5px;
+				padding-bottom:5px;
+				text-shadow: 0 1px 1px rgba(0,0,0,.3);
+				-webkit-border-radius: .5em; 
+				-moz-border-radius: .5em;
+				border-radius: .5em;
+				-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+				-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+				box-shadow: 0 1px 2px rgba(0,0,0,.2);
+			}
+			
+			.tombol-cari{
+				width:80px;
+			}
+			
+			.tombol-cari:hover {
+				text-decoration: none;
+				background-color:#9bc535;
+			}
+			
+			.tombol-cari:active {
+				position: relative;
+				top: 1px;
+			}
+
+		
+		.menu-kiri-3{
+			border:1px solid transparent;
+			width:190px;
+			height:auto;
+			background-color:white;
+			margin-top:10px;
+		}
+		
+		.menu-kiri-terbaru{
+			border:1px solid transparent;
+			width:180px;
+			height:auto;
+			margin:2px auto;
+			font-size:13pt;
+			padding-top:5px;
+			padding-left:5px;
+			background: rgba(255,255,255,1);
+			background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(46%, rgba(245,245,245,1)), color-stop(100%, rgba(237,234,234,1)));
+			background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#edeaea', GradientType=0 );
+		}
+		
+			.menu-kiri-terbaru-1{
+				border:1px solid transparent;
+				width:180px;
+				height:255px;
+				margin:0px auto;
+				
+				
+			}
+			
+			.produk-baru-detail{
+				border:1px solid #ccc;
+				width:83px;
+				height:77px;
+				margin:3px ;
+				margin-right:2px;
+				float:left;
+			}
+		
+			.gambar-best-detail{
+				border:1px solid transparent;
+				width:80px;
+				margin:0px auto;
+				margin-left:4px;
+				margin-top:1px;
+			
+			}
+			
+			.gambar-best-detail:hover{
+			-moz-box-shadow: 0px 0px 5px #1e1e1e; 
+			-webkit-box-shadow: 0px 0px 5px #1e1e1e; 
+			box-shadow: 0px 0px 5px #1e1e1e;
+			-webkit-transition: box-shadow 0.3s ease-in-out 0s;
+			-moz-transition: box-shadow 0.3s ease-in-out 0s;
+			-o-transition: box-shadow 0.3s ease-in-out 0s;
+			-ms-transition: box-shadow 0.3s ease-in-out 0s;
+			transition: box-shadow 0.3s ease-in-out 0s; 
+		}
+		
+		.gambar-best:hover img {
+			-moz-transform: scale(1.5);
+			-webkit-transform: scale(1.5);
+			transform: scale(1.5);
+			}
+		
+	.menu-kanan{
+		border:1px solid transparent;
+		width:795px;
+		height:auto;
+		float:right;
+		margin:0px auto;
+		margin-top:1px;
+		background-color:white;
+	}
+	
+		.breadcumbs{
+			border:1px solid transparent;
+			margin:5px auto;
+			width:774px;
+		}
+		
+		.judul-produk{
+			border:1px solid transparent;
+			width:774px ;
+			height:auto;
+			margin:5px auto;
+		}
+		
+		.gambar-produk{
+			border:1px solid transparent;
+			width:350px;
+			height:370px;
+			float:left;
+			margin:3px auto;
+			margin-left:10px;
+		}
+		
+		.floating{
+			clear:both;
+			height:0px;
+			line-height:0px;
+		}
+		
+		.tabel-detail-produk{
+			border:1px solid transparent;
+			width:350px;
+			height:auto;
+			float:right;
+			margin:3px auto;
+			margin-right:50px;
+		}
+		
+			.tabel-detail-produk table {
+				border-collapse: collapse;
+				width: 100%;
+			}
+
+			.tabel-detail-produk th, td {
+				text-align: left;
+				padding: 8px;
+			}
+
+			.tabel-detail-produk tr:nth-child(even){background-color: #f2f2f2}
+	
+			.tabel-detail-produk th {
+				
+				color:black;
+			}
+			
+		.add-cart {
+			display: inline-block;
+			outline: none;
+			cursor: pointer;
+			margin-top:20px;
+			margin-right:170px;
+			float:right;
+			text-align: center;
+			text-decoration: none;
+			font: 14px/100% Arial, Helvetica, sans-serif;
+			padding: .5em 2em .55em;
+			border-radius: .5em;
+			-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+			-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+			box-shadow: 0 1px 2px rgba(0,0,0,.2);
+		}
+		
+		.add-cart:hover {
+			text-decoration: none;
+			background-color:silver;
+		}
+		
+		.add-cart:active {
+			position: relative;
+			top: 1px;
+		}
+	
+		.add-cart {
+			background:#9bc535; /* this is a green */
+			width:175px;
+			
+		}
+		
+		.add-cart a{
+			text-decoration:none;
+		}
+			
+	.deskripsi-produk{
+		border:1px solid transparent;
+		width:774px;
+		height:35px;
+		margin:3px auto;
+		background: rgba(255,255,255,1);
+		background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(46%, rgba(245,245,245,1)), color-stop(100%, rgba(237,234,234,1)));
+		background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+		background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+		background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+		background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#edeaea', GradientType=0 );
+	}
+	
+	.deskripsi{
+		border:1px solid transparent;
+		width:774px;
+		height:130px;
+		margin:3px auto;
+	}
+	
+	.lihat-produk-lain{
+		border:1px solid transparent;
+		width:774px;
+		height:30px;
+		margin:3px auto;
+		background: rgba(255,255,255,1);
+		background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(46%, rgba(245,245,245,1)), color-stop(100%, rgba(237,234,234,1)));
+		background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+		background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+		background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+		background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 46%, rgba(237,234,234,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#edeaea', GradientType=0 );	
+	}
+	
+/*css login */
+		
+.header-login{
+	font-size:30px;
+	color:white;
+	background:#9bc535;
+	width:445;
+	height:50px;
+	border:double 2px #eae9f2;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	text-align:center;
+}
+		
+#login{
+	border:1px solid transparent;
+	width:450px;
+	height:250px;
+	margin:50px auto;
+	background:white;
+	border:double 2px #eae9f2;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+
+}
+
+.tabel{
+	border-spacing: 10px 10px;
+	margin:20px auto;
+}
+
+
+.tombol {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.tombol:hover {
+	text-decoration: none;
+}
+.tombol:active {
+	position: relative;
+	top: 1px;
+}
+
+.tombol {
+    background:#9bc535; /* this is a green */
+	width:175px;
+}
+
+.inputan{
+	background:#fff; color:#000; 
+    cursor:pointer;
+    padding:5px 10px; 
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px
+}
+
+.inputan-testimoni{
+	background:#fff; color:#000; 
+    cursor:pointer;
+    padding:5px 10px; 
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px
+}
+
+.inputan-login{
+	background:#fff; color:#000; 
+    cursor:pointer;
+    padding:5px 10px; 
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px
+}
+
+
+
+/*css keranjang*/
+
+#sitecontainer-keranjang{
+	border:1px solid transparent;
+	width:1000px;
+	height:750px;
+	margin:20px auto;
+	margin-top:-17px;
+	
+}
+
+.detail-keranjang{
+	border:1px solid transparent;
+	width:795px;
+	height:auto;
+	float:right;
+	margin:0px auto;
+	margin-top:1px;
+	background-color:white;
+
+}
+
+.keranjang {
+	margin-top:30px;
+	margin-bottom:50px;
+}
+
+.tabel-keranjang {
+	margin-left:80px;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.tabel-keranjang  td, th {
+    text-align: left;
+    padding: 8px;
+}
+.tabel-keranjang a {
+	text-decoration:none;
+}
+
+
+/*css bayar*/
+
+#sitecontainer-bayar{
+	border:1px solid transparent;
+	width:1000px;
+	height:800px;
+	margin:20px auto;
+	margin-top:-17px;
+	
+}
+
+.detail-bayar{
+	border:1px solid transparent;
+	width:795px;
+	height:auto;
+	float:right;
+	margin:0px auto;
+	margin-top:1px;
+	background-color:white;
+}
+
+
+/*css selesai*/
+
+#sitecontainer-selesai{
+	border:1px solid transaksi;
+	width:1000px;
+	height:750px;
+	margin:20px auto;
+	margin-top:-18px;
+	
+}
+
+.detail-selesai{
+	border:1px solid transparent;
+	width:795px;
+	height:auto;
+	float:right;
+	margin:0px auto;
+	margin-top:1px;
+	background-color:white;
+	margin-bottom:10px;
+}
+
+
+/*css cek transaksi*/
+#sitecontainer-cek-transaksi{
+	border:1px solid transparent;
+	width:1000px;
+	height:570px;
+	margin:20px auto;
+	margin-top:-18px;
+	
+}
+
+/*css tentang*/
+.sitecontainer-tentang{
+	border:1px solid transparent;
+	width:1000px;
+	height:830px;
+	margin:20px auto;
+	margin-top:-18px;
+	
+}
+
+/*css testimoni*/
+
+.testimoni{
+	border:1px solid transparent;
+	width:795px;
+	height:auto;
+	float:right;
+	margin:0px auto;
+	margin-top:1px;
+	background-color:white;
+}
+		
+	
+
+.tabel-testimoni{
+	border:0px solid transparent;
+	width:780px;
+	height:auto;
+	margin-left:10px;
+	background-color:#f2f2f2;
+	
+}
+
+	.tabel-testimoni table {
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	.tabel-testimoni th, td {
+		text-align: left;
+		padding: 8px;
+	}
+
+	.tabel-testimoni tr:nth-child(even){background-color: #fff}
+
+	.tabel-testimoni th {
+		color:black;
+	}
+	
+/*css konfirmasi pembayaran*/
+#sitecontainer-konfir-pem{
+	border:1px solid transparent;
+	width:1000px;
+	height:970px;
+	margin:20px auto;
+	margin-top:-18px;
+	
+}
+
+.kuitansi {
+			display: inline-block;
+			outline: none;
+			cursor: pointer;
+			margin-top:20px;
+			margin-right:170px;
+			margin-left:10px;
+			text-align: center;
+			text-decoration: none;
+			font: 14px/100% Arial, Helvetica, sans-serif;
+			padding: .5em 2em .55em;
+			border-radius: .5em;
+			-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+			-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+			box-shadow: 0 1px 2px rgba(0,0,0,.2);
+		}
+		
+		.kuitansi:hover {
+			text-decoration: none;
+			background-color:silver;
+		}
+		
+		.kuitansi:active {
+			position: relative;
+			top: 1px;
+		}
+	
+		.kuitansi {
+			background:#9bc535; /* this is a green */
+			width:175px;
+			
+		}
+		
+		.kuitansi a{
+			text-decoration:none;
+		}
+		
+
+.parentimage { 
+	width: 350px;
+	height: 370px; 
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+} 
+.parentimage:hover {
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+} 
