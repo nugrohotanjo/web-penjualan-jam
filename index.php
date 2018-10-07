@@ -43,7 +43,7 @@ require"konek_db.php";
 	</div>
 	<div id="best_seller">
 
-		<?php 
+		<?php
 		require"konek_db.php";
 		$best = "select * from barang order by dilihat DESC LIMIT 5";
 		$tambah = mysql_query ($best) or die ("Gagal".mysql_error());
@@ -52,7 +52,7 @@ require"konek_db.php";
 		$awal = 0;
 		$max = 4;
 		while ($row = mysql_fetch_array($tambah) and ($awal <= $max))
-		{				
+		{
 			$a = $row['nama_gambar'];
 			$b = $row['nama_brg'];
 			$c = $row['harga_barang'];
@@ -72,7 +72,7 @@ require"konek_db.php";
 
 
 
-		<?php } ?>	
+		<?php } ?>
 	</div>
 
 	<div class="menu_prodak_baru">
@@ -153,7 +153,7 @@ require"konek_db.php";
 			$next = " Selanjutnya";
 		}
 
-		?>	
+		?>
 
 	</div>
 
@@ -171,5 +171,4 @@ require"konek_db.php";
 	?>
 
 </body>
-
 </html>
