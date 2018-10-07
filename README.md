@@ -14,3 +14,10 @@ Credential user
 Username : admin
 <br>
 Password : admin
+
+# Licensi
+Web ini masih dalam tahap pengembangan<br>
+
+Pengembang  : Rizky Nugroho Tanjo
+E-Mail      : nugrohotanjo@gmail.com / rizkyarchery@gmail.com
+Website     : http://portfolio.techanget.com/
