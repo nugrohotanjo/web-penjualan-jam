@@ -18,6 +18,6 @@ Password : admin
 # Licensi
 Web ini masih dalam tahap pengembangan<br>
 
-Pengembang  : Rizky Nugroho Tanjo
-E-Mail      : nugrohotanjo@gmail.com / rizkyarchery@gmail.com
+Pengembang  : Rizky Nugroho Tanjo<br>
+E-Mail      : nugrohotanjo@gmail.com / rizkyarchery@gmail.com<br>
 Website     : http://portfolio.techanget.com/
