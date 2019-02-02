@@ -20,4 +20,5 @@ Web ini masih dalam tahap pengembangan<br>
 
 Pengembang  : Rizky Nugroho Tanjo<br>
 E-Mail      : nugrohotanjo@gmail.com / rizkyarchery@gmail.com<br>
-Website     : http://portfolio.techanget.com/
+Portfolio   : http://portfolio.techanget.com/
+Website     : https://www.techanget.com/2019/02/aplikasi-penjualan-e-commerce-php-ajax-jquery-api-raja-ongkir-gratis-download.html
